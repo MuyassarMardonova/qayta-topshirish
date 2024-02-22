@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 600px){
+    .navbar{
+     &_content{
+      &-menus{
+         
+          visibility: hidden;
+
+          
+      }
+
+      &-hamburger{
+          height: 2px;
+          background-color: black;
+          margin: 2px;
+          display: block;
+          border: 1px solid grey;
+          float: right;
+      }
+     }
+    }
+
+    .banner{
+           // flex-direction: column;
+        // flex-wrap: wrap;
+     
+        text-align: center;
+
+        img{
+           
+            flex-wrap: wrap;
+            flex: 100%;
+            text-align: center;
+           
+        }
+    
+
+    }
+}
